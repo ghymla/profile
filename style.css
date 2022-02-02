@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+}
+
+h1 {
+  color: gray;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover, .fab:hover, .fas:hover {
+  color: rgba(165, 194, 183, 0.6);
+}
+
+p {
+  color-interpolation-filters: auto;
+}
+
+
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile{
+  margin: 3em;
+  text-align: left;
+  padding: 2em;
+  border: 2px solid grey;
+  align-self: center;
+  box-shadow: 1px 2px 2px rgb(180 180 180 / 60%);
+  border-radius: 1em;
+  box-sizing: content-box;
+  height: 15em;
+  display: grid;
+  background: wheat;
+}
+
+.fab, .fas {
+  font-size: 3em;
+  color: royalblue;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5em;
+}
+
+.footer p {
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  body {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  body {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  body {
+    width: 300px;
+  }
+}
